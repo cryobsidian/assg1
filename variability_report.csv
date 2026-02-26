@@ -1,0 +1,52 @@
+column,non_null,missing_%,unique_non_null,most_occuring_value,most_occuring_count,top_%_of_non_null,recommendation,reason
+Location if Other,1194,90.03,543,Friend's Residence,68,5.7,Transform/Review,High missingness (90.0%)
+Ethnicity,2565,78.59,13,Hispanic,972,37.89,Keep,
+Death State,6873,42.63,2,CT,6872,99.99,Drop-as-feature,Low variability (top value dominates 100.0%)
+Death County,8090,32.48,10,HARTFORD,2441,30.17,Keep,
+Injury County,8647,27.83,18,NEW HAVEN,2716,31.41,Keep,
+Injury State,8952,25.28,7,CT,8912,99.55,Drop-as-feature,Low variability (top value dominates 99.6%)
+Death City,9197,23.24,238,HARTFORD,1083,11.78,Keep,
+Residence State,9993,16.59,35,CT,9661,96.68,Keep,
+Location,10632,11.26,16,Residence,4799,45.14,Keep,
+Residence County,10721,10.52,163,NEW HAVEN,3145,29.33,Keep,
+Description of Injury,11174,6.74,539,Substance Abuse,3233,28.93,Keep,
+Residence City,11385,4.97,536,HARTFORD,830,7.29,Keep,
+Injury Place,11623,2.99,99,Residence,6188,53.24,Keep,
+InjuryCityGeo,11724,2.15,493,"HARTFORD, CT
+(41.765775, -72.673356)",934,7.97,Keep,
+Injury City,11803,1.49,297,HARTFORD,1099,9.31,Keep,
+ResidenceCityGeo,11814,1.39,633,"HARTFORD, CT
+(41.765775, -72.673356)",705,5.97,Keep,
+Race,11924,0.48,22,White,10080,84.54,Keep,
+Manner of Death,11972,0.08,6,Accident,11942,99.75,Drop-as-feature,Low variability (top value dominates 99.7%)
+Sex,11972,0.08,4,Male,8887,74.23,Keep,
+Age,11979,0.02,70,36.0,340,2.84,Keep,
+DeathCityGeo,11980,0.01,240,"CT
+(41.57350273000003, -72.73830590799997)",1452,12.12,Keep,
+Other Significant Conditions ,11981,0.0,1,0,11981,100.0,Drop-as-feature,No variability (constant); Low variability (top value dominates 100.0%)
+Other,11981,0.0,1,0,11981,100.0,Drop-as-feature,No variability (constant); Low variability (top value dominates 100.0%)
+Morphine (Not Heroin),11981,0.0,2,0,11925,99.53,Drop-as-feature,Low variability (top value dominates 99.5%)
+Hydromorphone,11981,0.0,2,0,11904,99.36,Keep,
+Other Opioid,11981,0.0,2,0,11891,99.25,Keep,
+Meth/Amphetamine,11981,0.0,2,0,11854,98.94,Keep,
+Opiate NOS,11981,0.0,2,0,11854,98.94,Keep,
+Oxymorphone,11981,0.0,2,0,11819,98.65,Keep,
+Hydrocodone,11981,0.0,2,0,11812,98.59,Keep,
+Tramad,11981,0.0,2,0,11679,97.48,Keep,
+Amphet,11981,0.0,2,0,11550,96.4,Keep,
+Gabapentin,11981,0.0,2,0,11513,96.09,Keep,
+Heroin death certificate (DC),11981,0.0,2,0,11241,93.82,Keep,
+Fentanyl Analogue,11981,0.0,2,0,11007,91.87,Keep,
+Oxycodone,11981,0.0,2,0,10965,91.52,Keep,
+Methadone,11981,0.0,2,0,10903,91.0,Keep,
+Xylazine,11981,0.0,2,0,10903,91.0,Keep,
+Date Type,11981,0.0,2,Date of death,10214,85.25,Keep,
+Heroin/Morph/Codeine,11981,0.0,2,0,9824,82.0,Keep,
+Benzodiazepine,11981,0.0,2,0,9264,77.32,Keep,
+Any Opioid,11981,0.0,2,1,8828,73.68,Keep,
+Ethanol,11981,0.0,2,0,8781,73.29,Keep,
+Heroin,11981,0.0,2,0,8403,70.14,Keep,
+Fentanyl,11981,0.0,2,1,8047,67.16,Keep,
+Cocaine,11981,0.0,2,0,7403,61.79,Keep,
+Cause of Death,11981,0.0,7632,Acute Fentanyl Intoxication,556,4.64,Keep,
+Date,11981,0.0,3877,05/27/2021,12,0.1,Keep,
